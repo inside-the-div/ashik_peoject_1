@@ -24,4 +24,10 @@ Route::get('/contact', function () {
 });
 
 
+Route::get('/service', function () {
+    return view('service');
+});
+
+
+
 
